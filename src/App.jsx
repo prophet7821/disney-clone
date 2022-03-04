@@ -3,6 +3,9 @@ import {BrowserRouter as Router , Switch , Route} from 'react-router-dom'; //rou
 //components
 import Login from './components/Login';                                   //Login component
 import Header from'./components/Header';
+import Home from './components/Home';
+
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +14,9 @@ function App() {
         <Switch>
           <Route exact path='/' >
             <Login/>
+          </Route>
+          <Route path='/home'>
+            <Home/>
           </Route>
         </Switch>
       </Router>
