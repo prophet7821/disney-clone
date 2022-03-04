@@ -92,6 +92,7 @@ const SignUp = styled.a`
 
   &:hover {
     background-color: #0483ee;
+    cursor:pointer;
   }
 `;
 const Description = styled.p`
